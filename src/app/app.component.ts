@@ -5,6 +5,14 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   title = 'cosmox';
+
+  onActivate(event: any){
+    window.scroll(0,0);
+  }
+
+
+
 }
