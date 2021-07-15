@@ -28,9 +28,6 @@ export class EnviarCorreoService {
               Mensaje: <b>${form.mensaje} </b> <br/><br/>
               <i>~~~ Fin del mensaje ~~~</i>`;
 
-    console.log(cuerpoMensaje);
-    
-
     let formData = new FormData();
     formData.append('ToEmail', 'admin@cosmox.mx');
     formData.append('Subject', 'Contacto desde la pagina web');
